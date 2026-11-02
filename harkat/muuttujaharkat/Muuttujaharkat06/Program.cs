@@ -1,5 +1,5 @@
 ﻿// • Luo kokonaislukumuuttujat a, b ja c ilman, että sijoitat niihin arvoja.
-int a,b,c;
+float a,b,c;
 // • Sijoita a:n arvoksi 12
 a = 12;
 // • Sijoita b:n arvoksi a:n arvo kerrottuna neljällä
