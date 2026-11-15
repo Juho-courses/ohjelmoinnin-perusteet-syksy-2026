@@ -2,6 +2,7 @@
 // itsellään
 // • Tee tämä for-lauseella ja while-lauseella
 
+//  (alustus ; ehto   ; muutos)
 for (int i = 1; i < 11; i++)
 {
     Console.WriteLine(i * i);
@@ -9,9 +10,10 @@ for (int i = 1; i < 11; i++)
 
 Console.WriteLine("-------");
 
-int k = 1;
-while (k < 11)
+
+int k = 1; // alustus
+while (k < 11) // ehto
 {
     Console.WriteLine(k * k);
-    k++; // k = k + 1
+    k++; // muutos, k = k + 1
 }
